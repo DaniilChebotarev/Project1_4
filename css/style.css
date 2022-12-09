@@ -66,12 +66,14 @@ h1,h2,h3,h3,h4,h5,h6 {font-style:inherit; font-weight: 400;}
 /*body*/
 
 body {
-    position: fixed;
-    
+      display: flex;
+    flex-direction: column;
+    height: 960px;
     width: 320px;
     min-width: 320px;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2), -2px 0px 4px rgba(69, 79, 126, 0.02);
     font-family: "TT Lakes", "Verdana", sans-serif;
+    overflow-y: scroll;
     
 }
 
